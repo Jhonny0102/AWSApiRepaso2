@@ -1,0 +1,14 @@
+﻿================================
+======= API CORRECTAMENTE ======
+================================
+
+1. Creamos un nuevo proyecto tipo AWS Serverless Aplication (.NET Core - C#).
+2. Elegimos el tipo ASP.NET Core Web Api.
+3. Agregamos los nuggets:
+	-> Swashbuckle.AspNetCore
+	-> Pomelo.EntityFrameworkCore.MyS (Usamos Mysql)
+	-> Microsoft.EntityFrameworkCore
+4. Creamos el model , context , repository con los metodos necesarios , el controller.
+5. Agregamos la conexion a Mysql en appsetting.
+6. Configuramos Startup.
+7. Comprobamos localmente que funcione y luego lo lanzamos.
